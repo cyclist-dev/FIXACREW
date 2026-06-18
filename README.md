@@ -1,6 +1,6 @@
 # FIXACREW // UNDERGROUND NETWORK
 
-**FixaCrew** is a decentralized platform connecting fixed gear cyclists, track bike enthusiasts, and urban riders. Designed with a brutalist, underground aesthetic (neon green on black), it serves as a digital hub for finding local crews, checking ride schedules, and exploring the urban cycling map. It acts not just as a directory, but as a manifesto for the "no brakes" culture, prioritizing raw data and visual impact over traditional corporate web design.
+**FixaCrew** é uma plataforma descentralizada que conecta ciclistas de marcha fixa, entusiastas de track bikes e ciclistas urbanos. Projetado com uma estética brutalista e underground (verde neon no preto), o sistema funciona como um hub digital para encontrar crews locais, checar calendários de pedais e explorar o mapa do ciclismo urbano. Atua não apenas como um diretório, mas como um manifesto para a cultura "sem freios", priorizando dados brutos e impacto visual em vez do web design corporativo tradicional.
 
 ---
 
