@@ -1,0 +1,9 @@
+{
+    "name": "marcela/fixacrew",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    }
+}
