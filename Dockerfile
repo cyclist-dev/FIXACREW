@@ -1,10 +1,16 @@
-FROM php:8.2-apache
+FROM ubuntu:22.04
 
-RUN docker-php-ext-install pdo pdo_mysql mysqli
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Desativa MPMs conflitantes e ativa só o prefork (compatível com PHP)
-RUN a2dismod mpm_event mpm_worker 2>/dev/null || true && \
-    a2enmod mpm_prefork rewrite
+RUN apt-get update && apt-get install -y \
+    apache2 \
+    php8.1 \
+    php8.1-mysql \
+    php8.1-pdo \
+    libapache2-mod-php8.1 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN a2enmod rewrite php8.1
 
 COPY . /var/www/html/
 
@@ -19,3 +25,5 @@ RUN echo '<Directory /var/www/html/public>\n\
 RUN chown -R www-data:www-data /var/www/html
 
 EXPOSE 80
+
+CMD ["apache2ctl", "-D", "FOREGROUND"]
