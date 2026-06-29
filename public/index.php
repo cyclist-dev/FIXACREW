@@ -40,3 +40,5 @@ if (!array_key_exists($pagina, $rotas)) {
 
 [$classe, $metodo] = $rotas[$pagina];
 (new $classe())->$metodo();
+
+?>
