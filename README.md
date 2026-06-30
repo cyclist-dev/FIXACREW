@@ -2,6 +2,8 @@
 
 **FixaCrew** é uma plataforma descentralizada que conecta ciclistas de marcha fixa, entusiastas de track bikes e ciclistas urbanos. Projetado com uma estética brutalista e underground (verde neon no preto), o sistema funciona como um hub digital para encontrar crews locais, checar calendários de pedais e explorar o mapa do ciclismo urbano. Atua não apenas como um diretório, mas como um manifesto para a cultura "sem freios", priorizando dados brutos e impacto visual em vez do web design corporativo tradicional.
 
+🔗 [Ver projeto ao vivo](https://fixacrew-production.up.railway.app)
+
 ---
 
 ## 1. Refatoração e Arquitetura Técnico-Estrutural (MVC)
