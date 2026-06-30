@@ -3,7 +3,12 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "App\\": "App/"
+            "App\\Controllers\\": "Controllers/",
+            "App\\Models\\": "Models/",
+            "App\\Middlewares\\": "middlewares/"
         }
+    },
+    "require": {
+        "php": ">=8.1"
     }
 }
